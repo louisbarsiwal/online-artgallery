@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+    font-size: 17px;
+    padding: 0%;
+    
+}
+/**********PAGE-1************/
+.homepage{
+    
+    padding: 8rem 5rem;
+    height: 32.4rem;
+    background-image: url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    line-height: 399%;
+    
+    
+}
+
+.homepage h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 5rem;
+    color: #f2dac3da;
+    margin-top: 4%;
+}
+.homepage h3{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.625rem;
+    font-weight: normal;
+    line-height: 86%;
+    
+      
+}
+.homepage h4{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.625rem;
+    font-weight: normal;
+    line-height: 86%;
+}
+
+/* ***********NAVIGATION BAR*************** */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#040404;
+    position:sticky;   
+    padding: 0.5rem 2rem;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2.25rem;
+    
+}
+
+nav .link a{
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+nav .link a:hover{
+    color: #fcba03;
+}
+
+/* *******************PAGE-2********************** */
+.page2{
+    margin-top: 0%;
+    
+}
+
+/* **********FLEX-CONTAINER */
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 91vh;    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* opacity: 0.43; */
+}
+
+.box{
+    
+    width: 12%;
+    height: 75%;
+    margin: 2px;
+    box-shadow: 0 0 50px #1f1f1f69;
+    transition: 0.4s ease-in-out;  
+    
+}
+.box:hover{
+    transform: scale(1.15) ;
+    opacity: 0.97;
+}
+
+/* ************EXPLORE BUTTON IN CONTAINER************** */
+button{
+    border-radius: 2px;
+    background:transparent;
+    margin: 195% auto 0% 19%;
+    padding: 1.4% 9.2%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    outline: 0px;
+    border: 1px white solid;
+    cursor: pointer;    
+}
+
+/* ***************CONTAINER BOXES***************** */
+#box-1{
+    background-image: url(images/art1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#box-2{
+    background-image: url(images/art2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#box-3{
+    background-image: url(images/art3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box-4{
+    background-image: url(images/art4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#box-5{
+    background-image: url(images/art5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box-6{
+    background-image: url(images/art6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* *******************PAGE-3-CONTACT US PAGE********************* */
+
+.page3{
+    height: 84.71vh;
+    padding-top: 4%;
+    margin-bottom: 0%;
+}
+
+/* ************PAGE-3 TITLE TEXT***************** */
+.page3 h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 90%;
+    text-align: center;
+    margin: 3.1% 0% 4.2% 0%;
+}
+
+/* *****************CONTACT IS BOXES************** */
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    justify-content: center;
+}
+.contact-item{
+    min-height: 225px;
+    background-color: #fcba03;
+    position: relative;
+    flex: 0 0 20%;
+    margin: 0% 2% 0% 2%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+/* *****************CHAT BOX***************** */
+.chatbox{
+    border: 2px black solid;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    margin-top: 15%;
+    display: inline-block;
+    padding: 15px 35px;
+    min-width: 200px;
+    cursor: pointer;
+    
+}
+.chatbox:hover{
+    background-color: black;
+    color: white;
+}
+
+/* *************IMAGES ON CONTACT BOXES**************** */
+.cimg-1{
+    background-image: url(images/chatbox.png);
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -24.5%;
+    margin-bottom: 0.5%;
+    
+}
+.cimg-2{
+    background-image: url(images/mailbox.png);
+    height: 55px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -7.5%;
+    margin-bottom: 21.5%;
+    
+}
+.cimg-3{
+    background-image: url(images/twitter.png);
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -12.5%;
+    margin-bottom: 16.5%;
+    
+}
+
+/* ******************CHAT BOX***************** */
+.chatboxall{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+
+}
+
+/* *************FOOTER****************** */
+footer{
+    background-color:black;
+    text-decoration: none;
+    height: 10%;
+    padding: 2.0%;
+    text-align: center;
+    justify-content: center;
+}
+
+.links a i {
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 0% 0.8% 0% 0.8%;
+    size: 5%;
+}
+.links a i:hover {
+    color: #fcba03 ;
+    transform: scale(1.5);
+}
+
+/* *****************CREDIT****************** */
+footer h2{
+    color: gray;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    padding: 0% 1% 0.5% 1%;
+    margin: 0%;
+}
+
+/* *******************RESPNOSIVENESS************* */
+@media screen and (max-width:415px)
+{
+    /* *********PAGE-1********** */
+        .homepage h2 {
+            font-size: 3.5rem;
+        }
+        .homepage h3 {
+            font-size: 2.5rem;
+        }
+        .homepage h4 {
+            font-size: 2.5rem;
+        }
+        .homepage{
+            padding: 7rem 2rem;
+            height: 27.5rem;
+            margin-bottom: 19%;           
+        }
+
+    /* ************NAVIGATION BAR********* */
+        .logo{
+            font-size: 308%;
+            padding: 1% 0% 10% 0%;
+            margin-left: -14px;
+        }
+        
+        nav{
+            flex-direction: column;
+            padding: 0.9rem;
+            text-align: center;
+            margin-top: -19%;
+            padding-top: 7%;
+            padding-bottom: 8.6%;
+            position: relative;
+        }
+        nav .link a{
+            font-size: 20px;
+            padding-left: -5%;
+        }
+        
+    /* **********PAGE-2 FLEX-ITEM*********** */
+        .box{
+            width: 25%;
+            height: 40%;
+        }
+
+        button{
+            margin: 195% 9% 0% 10%
+        }
+
+    /* **************PAGE-3***************** */
+        .contact-item{
+            margin: 8% 1% 1% 1%;
+        }
+
+    /* *************FOOTER************* */
+        footer{
+            margin-top: 105%;
+        }
+
+        footer h2{
+            margin-top: 4%;
+            float: none;
+        }
+
+
+
+/* BUILD & DESIGNED BY LOUIS BARSIWAL  */
+
+
+
+
+
+}
